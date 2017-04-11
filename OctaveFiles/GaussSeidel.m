@@ -1,12 +1,18 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Input a square matrix into A
+% Input your coefficient matrix type into B
+% Run
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 clear;clc
 format compact
 %%Input your square matrix_type
-A = [-6 2 1 2 1;
-      3 8 -4 1 0;
-      -1 1 4 10 1;
-      3 -4 1 9 2;
-      2 0 1 3 10]; %coefficients matrix_type
-C = [3;4;-2;12;1];
+A = [4 1 -1;
+     2 7 1;
+     1 -3 12]; %coefficients matrix_type
+C = [3;19;31];
 n = length(C);
 X = zeros(n,1);
 Error_eval = ones(n,1);

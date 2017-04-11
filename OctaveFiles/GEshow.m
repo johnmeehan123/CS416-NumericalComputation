@@ -1,3 +1,11 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% input A = matrix
+% input b = solutions
+% input ptol = pivot_total
+% Simply run GEShow(A,b);
+% Note : This version doesn't show pivtos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function x = GEshow(A,b,ptol)
 
 if nargin<3, ptol = 50*eps; end

@@ -1,3 +1,7 @@
+%%%%-----------------------%%%%
+% For golden search, the function must be in 
+% f.m, i.e change this function to run gold search
+
 figure; hold on;
 
 a=0;                            % start of interval

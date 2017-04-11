@@ -1,3 +1,11 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% input A = matrix
+% input b = solutions
+% input ptol = pivot_total
+% Simply run GEPivShow(A,b);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 function x = GEPivShow(A,b,ptol)
 
 if nargin<3,ptol = 50*eps; end

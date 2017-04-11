@@ -1,3 +1,13 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Input your matrix A in form A = [1,2,3;1,2,3;1,2,3];
+% Input your solutions b in form b = [1;2;3];
+% Run in form [L,U,pv] = luPiv(A);
+% This give U,L and pv
+% run y = L\b(pv)
+% run x = U\y
+% This will complete the solutions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [L,U] = luNopiv(A,ptol)
 
 if nargin<3, ptol = 50*eps; end

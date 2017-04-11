@@ -1,3 +1,12 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Below is f(1) and f(2).
+% We will change these depending on the question
+% Example input will be
+% x = demoNewtonSys(10,[5;5])..
+% This means that we run for 10 iterations
+% 5;5 is x0 which is our inital guess
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function x = demoNewtonSys(maxit,x0)
 
 if nargin<1, maxit=5;       end %default iteration is 5
@@ -14,7 +23,7 @@ fprintf('\n k     x(1)     x(2)     norm(f)     norm(dx)\n'); %just print top va
 for k =1: maxit %for loop which runs for each iteration
   f(1) = alpha*x(1) - x(2) + bbeta;  %first equation
   f(2) = x(1)^2 + sigma*x(1) - x(2) + tau; %second equation
-  J = [ alpha -1; (2*x(1)+sigma) -1]; %
+  J = [ alpha -1; (2*x(1)+sigma) -1]; %I believe J is the jacobian.. so disp(J) should print it
   dx = -J\f;
   fprintf(' %4d     %9.5f     %9.5f     %10.2e     %10.2e     %10.2e\n',...
            k-1,x(1),x(2),norm(f),norm(dx));

@@ -1,3 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Input your x's ---- x = [1,2,3];
+% Input your y's ---- y = [1,2,3];
+% Run A = divDiffTable(x,y) to print table
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function D = divDiffTable(x,y)
 
 n = length(y);

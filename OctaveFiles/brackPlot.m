@@ -1,3 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%Xb = brackPlot('fx3',0,10)%
+%This will run brackPlot on fx3 (below function)
+%change fx3 depending on function
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 function Xb = brackPlot(fun,xmin,xmax,nx)
 
 if nargin<4, nx=20; end
