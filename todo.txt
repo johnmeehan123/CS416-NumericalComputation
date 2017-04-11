@@ -1,0 +1,6 @@
+1) Constructing a matrix via a recursive method
+2) Check O(h^2) numerical differentiation.. belive this method is in demoNewtonSys to calculated the
+   jacobian 
+3) Applications of systems of equations -> Mod's etc need to be coded
+4) Determining degree of polynomial?
+5) Estimating max/min of unknown functions
